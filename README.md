@@ -7,7 +7,7 @@
   * **Flexbox**
   * **Media Queries (`@media`)** 
   * **Animaciones (`@keyframes`)**
-Estructura del Proyecto
+#Estructura del Proyecto
 * `/css` - Hojas de estilo independientes y optimizadas sin caracteres especiales.
 * `/img` - Recursos visuales y optimizados para los platos gastronómicos.
 * `index.html` - Página principal de bienvenida.
