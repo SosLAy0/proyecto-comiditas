@@ -1,0 +1,132 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="css/diseñoMenu.css">
+    <link rel="stylesheet" href="css/diseño_pedidos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Pedidos realizados</h1>
+            <nav>
+                <a href="index.html">🏠 Inicio</a>
+                <a href="menu.html">📜 Menú</a>
+                <a href="ofertas_especiales.html">🔥 Ofertas</a>
+                <a href="pedidos.html">🛍️ Pedidos</a>
+            </nav>
+        </header>
+<main class="contenedor-historial">
+        <div class="cabecera-historial">
+        <div class="texto-cabecera">
+            <h2>Mis Pedidos Realizados</h2>
+            <p class="subtitulo-pagina">Selecciona una de tus órdenes para visualizar el comprobante detallado.</p>
+        </div>
+        <div class="badge-resumen">
+            <span class="icono-resumen">🌱</span>
+            <div>
+                <span class="numero-resumen">3 Órdenes</span>
+                <p class="descripcion-resumen">Alimentos salvados</p>
+            </div>
+        </div>
+    </div>
+    <section class="grid-historial">
+        
+        <a href="#orden-fideos" class="tarjeta-historial-bloque">
+            <div class="info-rapida">
+                <span class="id-orden">Órden #0042</span>
+                <h3>Fideos con Salsa de Tomate</h3>
+                <p class="resumen-precio">Total: S/. 12.00</p>
+                <span class="estado-tag listo">Listo para recoger</span>
+            </div>
+        </a>
+
+        <a href="#orden-pizza" class="tarjeta-historial-bloque">
+            <div class="info-rapida">
+                <span class="id-orden">Órden #0039</span>
+                <h3>Pizza Americana</h3>
+                <p class="resumen-precio">Total: S/. 18.00</p>
+                <span class="estado-tag entregado">Entregado</span>
+            </div>
+        </a>
+
+        <a href="#orden-lomo" class="tarjeta-historial-bloque">
+            <div class="info-rapida">
+                <span class="id-orden">Órden #0035</span>
+                <h3>Lomo Saltado</h3>
+                <p class="resumen-precio">Total: S/. 22.00</p>
+                <span class="estado-tag entregado">Entregado</span>
+            </div>
+        </a>
+
+    </section>
+
+    <section class="zona-boletas-target">
+            <div class="tarjeta-boleta-flex" id="orden-fideos">
+                <div class="bloque-izquierda-producto">
+                    <img src="img/images (1).jpg" alt="Fideos" class="mini-imagen-boleta">
+                    <div class="detalles-producto-boleta">
+                        <h3>Fideos con Salsa de Tomate</h3>
+                        <span class="badge-estado listo">Listo para recoger</span>
+                    </div>
+                </div>
+                <div class="bloque-derecha-valores">
+                    <p><strong>Cantidad:</strong> 1 porción</p>
+                    <p><strong>Total:</strong> S/. 12.00</p>
+                    <p class="nro-comprobante">Comprobante: <span>Boleta N° B001-0042</span></p>
+                </div>
+            </div>
+
+            <div class="tarjeta-boleta-flex" id="orden-pizza">
+                <div class="bloque-izquierda-producto">
+                    <img src="img/images (3).jpg" alt="Pizza" class="mini-imagen-boleta">
+                    <div class="detalles-producto-boleta">
+                        <h3>Pizza Americana</h3>
+                        <span class="badge-estado entregado">Entregado</span>
+                    </div>
+                </div>
+                <div class="bloque-derecha-valores">
+                    <p><strong>Cantidad:</strong> 1 porción</p>
+                    <p><strong>Total:</strong> S/. 18.00</p>
+                    <p class="nro-comprobante">Comprobante: <span>Boleta N° B001-0039</span></p>
+                </div>
+            </div>
+
+            <div class="tarjeta-boleta-flex" id="orden-lomo">
+                <div class="bloque-izquierda-producto">
+                    <img src="img/lomo-saltado11.jpg" alt="Lomo Saltado" class="mini-imagen-boleta">
+                    <div class="detalles-producto-boleta">
+                        <h3>Lomo Saltado</h3>
+                        <span class="badge-estado entregado">Entregado</span>
+                    </div>
+                </div>
+                <div class="bloque-derecha-valores">
+                    <p><strong>Cantidad:</strong> 1 porción</p>
+                    <p><strong>Total:</strong> S/. 22.00</p>
+                    <p class="nro-comprobante">Comprobante: <span>Boleta N° B001-0035</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor-footer">
+            <div class="info-proyecto">
+                <h4>FoodSace</h4>
+                <p>Salvando comida, protegiendo el planeta. Conectamos tus restaurantes favoritos con oportunidades únicas para reducir el desperdicio de alimentos.</p>
+            </div>
+            <div class="enlaces-footer">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="terminos.html">📜 Términos y Condiciones</a></li>
+                    <li><a href="privacidad.html">🔒 Política de Privacidad</a></li>
+                    <li><a href="libro_reclamaciones.html">📖 Libro de Reclamaciones</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="barra-derechos">
+            <p>&copy; 2026 Avance de Proyecto Final. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
